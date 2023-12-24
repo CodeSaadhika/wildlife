@@ -9,7 +9,7 @@ header{
     height: 100px;
     text-align: center;
     padding-top: 35px;
-    font-size: 45px;
+    font-size: 2.3rem;
     padding: auto;
 }
 .box-style{
@@ -27,5 +27,17 @@ header{
     margin-top: 15px;
     background-repeat:no-repeat ;
     background-size: cover;
+}
+@media only screen and (max-width:368px){
+    body{
+        border: 2px solid rgb(0, 0, 0);
+    }
+    .box-style{
+        display: block;
+        flex-direction: column;
+    }
+    .box img{
+        width: 340px;
+    }
 }
 
