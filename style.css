@@ -40,4 +40,15 @@ header{
         width: 340px;
     }
 }
+@media only screen and (max-width:600px){
+    .box-style{
+        display: block;
+        flex-direction: column;
+    }
+    .box img{
+        width: 331%;
+        height: 350px;
+        align-items: center;
+}
+}
 
